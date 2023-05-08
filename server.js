@@ -22,3 +22,5 @@ UsersModel.create({
 }).catch(err=> {
     console.log(err)
 })
+
+module.exports = UsersModel;
